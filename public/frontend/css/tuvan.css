@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=vietnamese');
+
+.box_dangKyTuVan{color: #30373d; position: relative; padding: 43px 0; background: url(../images/bg-banner_1.jpg) no-repeat center;}
+.box_dangKyTuVan .container{width: 1000px; max-width: 100%;}
+.box_dangKyTuVan .dangKy{ padding: 50px 0 0 15px; margin-top: 15px; display: flow-root;}
+.box_dangKyTuVan .dangKy .box_title{padding-bottom: 50px; color: #fff; font-size: 30px; text-align: center; text-transform: uppercase; font-family: "Montserrat"; font-weight: 700;}
+.box_dangKyTuVan .dangKy .box_title .title{ font-family: "Montserrat"; font-weight: 700; text-transform: uppercase; text-align: center; color: #fff; font-size: 30px; line-height:40px;}
+.box_dangKyTuVan .dangKy .box_title p{color: #fff; text-align: center;font-size: 18px; text-transform: uppercase; font-weight: 300;}
+.box_dangKyTuVan .dangKy .form-control{border:1px solid #111; color:#111;height: 55px;background: #fff;border-radius: 5px;padding: 10px 30px;font-size: 17px; line-height:27px;}
+.box_dangKyTuVan .dangKy .form-control::placeholder{color: #111;}
+.box_dangKyTuVan .dangKy select{font-size: 17px; color: #111;}
+.box_dangKyTuVan .dangKy option{font-size: 17px; color: #111;}
+.box_dangKyTuVan .dangKy .error{ color: #FF0000;}
+.box_dangKyTuVan .dangKy .alert{margin-top: 10px; border-radius: 0;}
+.box_dangKyTuVan .dangKy .btnSuccess{ text-align: center; margin-top: 10px;}
+.box_dangKyTuVan .dangKy .btnSuccess .input-lg{padding-top: 10px;border: none;border-radius: 0;width: 26%;max-width: 100%;border-radius: 5px;background: #f7ea10;color: #000508;font-family: "DP-Bold";font-size: 25px;text-transform: uppercase;height: 55px;vertical-align: middle;}
+.box_dangKyTuVan .dangKy .btnSuccess .input-lg:hover{background: #000508;transition: color 0.7s ease-in-out 0s,  background-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;color: #f7ea10;}
+.box_dangKyTuVan .dangKy .btnSuccess .input-lg:FOCUS{ outline: none;}
+.box_dangKyTuVan .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){width: 100%; background: #fff !important; height: 65px; border-radius: 0; padding: 0 30px; font-family: "Roboto-Regular"; font-size: 20px;}
+.box_dangKyTuVan .bootstrap-select>.dropdown-toggle.bs-placeholder{padding: 0; color: #111; height: 53px; background: #fff; !important; border-radius: 0; border: 0; font-size: 17px;}
+.box_dangKyTuVan .btn-group.open .dropdown-toggle{color: #111; height: 53px; background: #fff; !important; border-radius: 0; border: 0; font-size: 17px;}
+.box_dangKyTuVan .bootstrap-select>.dropdown-toggle{color: #111; height: 53px; background: #fff; !important; border-radius: 0; border: 0; font-size: 17px;}
+.box_dangKyTuVan .hotline{text-align: center; padding: 40px 0; color: #fff; font-size: 22px; font-weight: 300;}
+
+.box_dangKyFree{max-width: 100%; box-shadow: 2px 4px 14px 3px rgba(0,0,0,0.36); width: 310px; border-radius: 5px; text-align: center; position: fixed; bottom: 10px; left: 10px; padding: 10px; background: #fff;}
+.box_dangKyFree .box_content .images{width: 80px; float: left;}
+.box_dangKyFree .box_content .content{background: #fff; border-radius: 5px;}
+.box_dangKyFree .box_content .content .title{padding-bottom: 15px;}
+.box_dangKyFree .box_content .content .btn{line-height: 30px; margin: 0 auto; border: none; border-radius: 0; width: 150px; background: #d3a23b; color: #fff;font-family: "DP-Bold"; font-size: 18px; text-transform: uppercase; height: 35px; vertical-align: middle;}
+.box_dangKyFree .box_content .content .btn:hover{background: #e71e42; transition: color 0.7s ease-in-out 0s,  background-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;}
+
+@media(max-width: 768px){
+	.box_dangKyTuVan{background-size: cover;}
+	.box_dangKyTuVan .dangKy{padding: 0; margin: 0;}
+	.box_dangKyTuVan .dangKy .box_title{padding-bottom: 20px; font-size: 24px;}
+	.box_dangKyTuVan .dangKy .btnSuccess .input-lg{width: 100%; font-size: 20px;}
+}

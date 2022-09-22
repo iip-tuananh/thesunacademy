@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=vietnamese');
+
+.livechat{transition: background-color 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s; width: 200px; position: fixed; text-align: center; bottom: 0; right: 15px; color: #fff; background: #05295f; padding: 5px 10px; border-radius: 10px 10px 0 0;}
+.livechat a{text-align: center; color: #fff; text-transform: uppercase; font-size: 14px;}
+.livechat a .fa{padding-right: 10px;}
+.livechat:hover{background: #d3a23b; transition: background-color 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;}
+.livechat:hover a{font-weight: bold;}
