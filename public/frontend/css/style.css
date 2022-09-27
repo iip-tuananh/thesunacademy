@@ -191,7 +191,7 @@ h1,h2,h3,h4,h5,h6{ margin: 0;}
 	.box_bxslider .bxslider img{width: 100%;height: 320px;}
 	.box_bxslider .bx-wrapper {position: relative;height: 320px;}
 	.box_defaultHome .image{width: 362px;text-align: center;height: 300px;margin-top: 20px;}
-	.box_adsHome .box_item a span{position: absolute;bottom: 0;left: 50%;transform: translate(-50%);width: 180px;height: 34px;line-height: 34px;text-align: center;background-color: #fef569;color: #000508;font-size: 15px;transition: background-color 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;}
+	.box_adsHome .box_item a span{position: absolute;bottom: 0;left: 50%;transform: translate(-50%);width: 180px;height: 34px;line-height: 34px;text-align: center;background-color: #fef569;color: #000508;font-weight: 600;border-top-left-radius: 10px;border-top-right-radius: 10px;text-transform: uppercase;font-size: 15px;transition: background-color 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;}
 	.box_banner {height: 110px;background: url("../images/bg-banner_1.jpg") no-repeat top center;color: #FFF;background-size: cover;}
 	.box_banner .title{font-size: 23px;margin-top: 132px;text-transform: uppercase;font-weight: 700;}
 	.box_banner .slogan{ font-weight: 300; font-size: 20px; margin-top: 5px;}
