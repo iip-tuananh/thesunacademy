@@ -174,6 +174,16 @@
       
       //-->
    </script>
+   <script>
+      $(window).scroll(function(){
+      if ($(window).scrollTop() <= 330) {
+         $('.box_menuMain').addClass('fixed');
+         }
+         else {
+         $('.box_menuMain').removeClass('fixed');
+         }
+      });
+   </script>
    <script type="text/javascript">
       //<!--
             $(document).ready(function() {

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=vietnamese');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=vietnamese');
 
-.box_dangKyTuVan{color: #30373d; position: relative; padding: 43px 0; background: url(../images/bg-banner_1.jpg) no-repeat center;}
+.box_dangKyTuVan{color: #30373d; position: relative; padding: 43px 0; background: url(../images/bg-banner_2.jpg) no-repeat center;}
 .box_dangKyTuVan .container{width: 1000px; max-width: 100%;}
 .box_dangKyTuVan .dangKy{ padding: 50px 0 0 15px; margin-top: 15px; display: flow-root;}
 .box_dangKyTuVan .dangKy .box_title{padding-bottom: 50px; color: #fff; font-size: 30px; text-align: center; text-transform: uppercase; font-family: "Montserrat"; font-weight: 700;}
@@ -14,8 +14,8 @@
 .box_dangKyTuVan .dangKy .error{ color: #FF0000;}
 .box_dangKyTuVan .dangKy .alert{margin-top: 10px; border-radius: 0;}
 .box_dangKyTuVan .dangKy .btnSuccess{ text-align: center; margin-top: 10px;}
-.box_dangKyTuVan .dangKy .btnSuccess .input-lg{padding-top: 10px;border: none;border-radius: 0;width: 26%;max-width: 100%;border-radius: 5px;background: #f7ea10;color: #000508;font-family: "DP-Bold";font-size: 25px;text-transform: uppercase;height: 55px;vertical-align: middle;}
-.box_dangKyTuVan .dangKy .btnSuccess .input-lg:hover{background: #000508;transition: color 0.7s ease-in-out 0s,  background-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;color: #f7ea10;}
+.box_dangKyTuVan .dangKy .btnSuccess .input-lg{padding-top: 10px;border: none;border-radius: 0;width: 26%;max-width: 100%;border-radius: 5px;background: #fef569;color: #000508;font-family: "DP-Bold";font-size: 25px;text-transform: uppercase;height: 55px;vertical-align: middle;}
+.box_dangKyTuVan .dangKy .btnSuccess .input-lg:hover{background: #000508;transition: color 0.7s ease-in-out 0s,  background-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;color: #fef569;}
 .box_dangKyTuVan .dangKy .btnSuccess .input-lg:FOCUS{ outline: none;}
 .box_dangKyTuVan .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){width: 100%; background: #fff !important; height: 65px; border-radius: 0; padding: 0 30px; font-family: "Roboto-Regular"; font-size: 20px;}
 .box_dangKyTuVan .bootstrap-select>.dropdown-toggle.bs-placeholder{padding: 0; color: #111; height: 53px; background: #fff; !important; border-radius: 0; border: 0; font-size: 17px;}

@@ -41,7 +41,7 @@
     position: absolute;
     background-color: transparent;
     border-radius: 100%;
-    border: 2px solid #f7ea10;
+    border: 2px solid #fef569;
     -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
     animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
     transition: all .5s;
@@ -56,7 +56,7 @@
     top: 25px;
     left: 25px;
     position: absolute;
-    background-color: #f7ea10;
+    background-color: #fef569;
     border-radius: 100%;
     border: 2px solid transparent;
     -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
