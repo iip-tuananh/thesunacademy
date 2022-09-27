@@ -145,7 +145,7 @@
                                     <div class="item clearfix">
                                           <div class="row">
                                                 <div class="col-md-5">
-                                                      <div class="image"><a href="{{route('serviceDetail', ['slug'=>$service->slug])}}" title="{{$service->name}}"><img src="{{$avatars[0]}}" alt="{{$service->name}}" loading="lazy" style="height: 190px;"></a></div>
+                                                      <div class="image"><a href="{{route('serviceDetail', ['slug'=>$service->slug])}}" title="{{$service->name}}"><img src="{{$avatars[0]}}" alt="{{$service->name}}" loading="lazy" style="height: 214px;"></a></div>
                                                 </div>
                                                 <div class="col-md-7">
                                                       <div class="info">
