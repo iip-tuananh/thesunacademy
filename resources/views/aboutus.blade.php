@@ -66,7 +66,7 @@ Giới thiệu
             </div>
          </div>
       @endif
-      @if ($pageContent->xumenh)
+      @if ($pageContent->sumenh)
          <div class="item">
             <div class="key"><img alt="" src="{{url('frontend/images/icon-3.png')}}"></div>
             <div class="value value_1 text-center title">XỨ MỆNH</div>
@@ -74,7 +74,7 @@ Giới thiệu
          <div class="item">
             <div class="key key_1"></div>
             <div class="value value_2">
-               {!!$pageContent->xumenh!!}
+               {!!$pageContent->sumenh!!}
             </div>
          </div>
       @endif
