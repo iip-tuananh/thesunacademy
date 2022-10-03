@@ -114,7 +114,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>Twitter</label>
+                  <label>Youtube</label>
                   <vs-input
                     type="text"
                     size="default"

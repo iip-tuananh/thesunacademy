@@ -57,7 +57,7 @@
                <div style="display:inline">Kết nối với chúng tôi:</div>
                <div class="social" style="display: flex;">
                      <a href="{{$setting->facebook}}" target="_blank" class="item" style="margin-right: 20px;"><img src="{{url('frontend/images/icon_facebook.png')}}" loading="lazy"></a>
-                     <a href="https://www.youtube.com/" target="_blank" class="item" style="margin-right: 20px;"><img src="{{url('frontend/images/icon_youtube.png')}}" loading="lazy"></a>
+                     <a href="{{$setting->GA}}" target="_blank" class="item" style="margin-right: 20px;"><img src="{{url('frontend/images/icon_youtube.png')}}" loading="lazy"></a>
                      <a href="https://www.instagram.com/" target="_blank" class="item" style="margin-right: 20px;"><img src="{{url('frontend/images/icon_instagram.png')}}" loading="lazy"></a>
                      <a href="https://www.facebook.com/" target="_blank" class="item" style="margin-right: 20px;"><img src="{{url('frontend/images/icon_google.png')}}" loading="lazy"></a>
                </div>

@@ -35,7 +35,6 @@
    <link href="{{asset('frontend/css/bootstrap-select.min.css')}}" media="screen" rel="stylesheet" type="text/css">
    <link href="{{asset('frontend/css/font-awesome.min.css')}}" media="screen" rel="stylesheet" type="text/css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
-   {{-- <link href="{{asset('frontend/css/jquery.fancybox.css')}}" media="screen" rel="stylesheet" type="text/css"> --}}
    <link href="{{asset('frontend/css/jquery.bxslider.css')}}" media="screen" rel="stylesheet" type="text/css">
    <link href="{{asset('frontend/css/style.css')}}" media="screen" rel="stylesheet" type="text/css">
    <link href="{{asset('frontend/css/tuvan.css')}}" media="screen" rel="stylesheet" type="text/css">
@@ -87,6 +86,17 @@
          </div>
       </div>
    </div>
+   <div class="hotline-phone-ring-wrap4">
+      <div class="hotline-phone-ring">
+         <div class="hotline-phone-ring-circle"></div>
+         <div class="hotline-phone-ring-circle-fill"></div>
+         <div class="hotline-phone-ring-img-circle">
+         <a href="{{$setting->GA}}" class="pps-btn-img" target="_blank">
+         <img src="{{url('frontend/images/icon-youtube.png')}}" alt="Xem youtube" width="50" loading="lazy">
+         </a>
+         </div>
+      </div>
+   </div>
    <style>
       .item-footer img{max-width: 100%;}
       .inline-app a{display: inline-block; margin: 5px 0; }
@@ -100,26 +110,12 @@
    <script type="text/javascript" src="{{asset('frontend/js/jquery.min.js')}}"></script>
    <script type="text/javascript" src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
    <script type="text/javascript" src="{{asset('frontend/js/bootstrap-select.min.js')}}"></script>
-   {{-- <script type="text/javascript" src="{{asset('frontend/js/jquery.fancybox.js')}}"></script> --}}
    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
    <script type="text/javascript" src="{{asset('frontend/js/jquery.bxslider.min.js')}}"></script>
    <script type="text/javascript" src="{{asset('frontend/js/owl.carousel.min.js')}}"></script>
-   {{-- <script type="text/javascript" src="{{asset('frontend/js/hover-dropdown.js')}}"></script>
-   <script type="text/javascript" src="{{asset('frontend/js/numeric.min.js')}}"></script>
-   <script type="text/javascript" src="{{asset('frontend/js/app.js')}}"></script>
-   <script type="text/javascript" src="{{asset('frontend/js/me.js')}}"></script> --}}
-   <!--[if gt IE 8]><!-->
-   {{-- <script type="text/javascript" src="{{asset('frontend/js/hls.light.min.js')}}"></script> --}}
-   <!--<![endif]-->
-   {{-- <script type="text/javascript" src="{{asset('frontend/js/flowplayer.min.js')}}"></script> --}}
    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.2/dist/js/splide.min.js"></script>
    <div id="fb-root"></div>
    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0" nonce="V9nEN9h7"></script>
-   {{-- <script type="text/javascript">
-      $(document).ready(function() {
-            App.init();
-      });
-   </script> --}}
    <script type="text/javascript">
       document.addEventListener( 'DOMContentLoaded', function () {
       var main = new Splide( '#main-carousel', {
@@ -259,288 +255,6 @@
          }
       })
    </script>
-   {{-- <script type="text/javascript">
-      //<!--
-                  function loadCourse(city_id, insert) {
-               if(insert == 'html') {
-                  $('input[name="page"]').val(1);
-               } else {
-                  var page_next = parseInt($('input[name="page"]').val()) + 1;
-                        $('input[name="page"]').val(page_next);
-               }
-               $.ajax({
-                        type: "POST",
-                        url: '/post/api/list-course/',
-                        data: {
-                           course_city_id: city_id,
-                           page: $('input[name="page"]').val(),
-                           number: $('input[name="number"]').val(),
-                        },
-                        cache: false,
-                        beforeSend: function() {
-                           $('#box_courseNew .box_content').append('<div class="content-loading"><div class="loader_2"></div></div>');
-                        },
-                        success: function(result){
-                           if(insert == 'append') {
-                              $('#box_courseNew .box_content .load_content').append(result);
-                              if(result == '') {
-                                    $('#box_courseNew .view_all').hide();
-                              } else {
-                                    $('#box_courseNew .view_all').show();
-                              }
-                           } else {
-                              $('#box_courseNew .box_content .load_content').html(result);
-                              if(result == '') {
-                                    $('#box_courseNew .box_content .load_content').html('<div class="alert alert-danger">Hiện tại chưa có khóa học nào</div>');
-                                    $('#box_courseNew .view_all').hide();
-                              } else {
-                                    $('#box_courseNew .view_all').show();
-                              }
-                           }
-                           
-                           $('#box_courseNew .box_content .content-loading').remove();
-                        }
-                  });
-            };
-            loadCourse($('#box_courseNew .filter a:first').attr('data-id'), 'html');
-            
-               $(document).ready(function() {
-                  $('#box_courseNew .filter a').click(function() {
-                        $('#box_courseNew .filter a').removeClass('active');
-                        $(this).addClass('active');
-                        loadCourse($(this).attr('data-id'), 'html');
-                  });
-                  $('#box_courseNew .view_all a').click(function() {
-                        loadCourse($('#box_courseNew .filter a.active').attr('data-id'), 'append');
-                  });
-               });
-            
-      //-->
-   </script>
-   <script type="text/javascript">
-      //<!--
-      // Popup video
-      function play_video(url) {
-      var html = '';
-      html += '<div class="popup_video" onclick="close_popup()">';
-      html += '<div class="popup_content">';
-            html += '<div class="embed-responsive embed-responsive-16by9">';
-               html += '<iframe class="embed-responsive-item" src="'+ url +'" frameborder="0" allowfullscreen></iframe>';
-               html += '</div>';
-            html += '<a href="javascript:void(0)" onclick="close_popup()" class="popup_close"><i class="fa fa-times"></i></a>';
-            html += '</div>';
-      html += '</div>';
-      $('body').append(html);
-      }
-      
-      // Close Popup video
-      function close_popup() {
-      $('.popup_video').remove();
-      }
-      
-      //-->
-   </script>
-   <script type="text/javascript">
-      //<!--
-            $('#frmRegister .btn-sucsess').click(function() {
-            $.ajax({
-               url     : '/user/index/register/',
-               type    : 'POST',
-               data    : $('#frmRegister').serialize(),
-               beforeSend: function() {
-                  $('body').append('<div class="page-loading"><div class="loader"></div></div>');
-               },
-               success : function(data){
-                  var result = JSON.parse(data);
-                  if(result.error) {
-                        $('#frmRegister .alert').html(result.error).removeClass('hidden');
-                  } else if(result.success == 1) {
-                        window.location.href = "/user/index/index/";
-                  }
-                  $('body .page-loading').remove();
-               }
-            });
-      });
-      
-      //-->
-   </script>    
-   <script type="text/javascript">
-      /**
-            * Desciption: Form đăng ký
-            */
-      function formRegisterCRM(form) {
-            var idForm  = "#" + form;
-            var urlAjax = "https://erp.langmaster.vn/api/hbr-form-data/add";
-            var textBtn = $(idForm + ' .btnSuccess .btn').val();
-            
-            $.ajax({
-               type: "POST",
-               url: urlAjax,
-               data: $(idForm).serialize(),
-               dataType: "json",
-               cache: false,
-               beforeSend: function() {
-                  $(idForm + ' .form-group').removeClass('has-error');
-                  $(idForm + ' .alert').remove();
-                  $(idForm + ' .btnSuccess .btn').val('Đang gửi thông tin...').attr('disabled', 'disabled');
-                  $('body').append('<div class="page-loading"><div class="loader"></div></div>');
-               },
-               success: function(result){
-                  if(result.error) {
-                        if(result.error.form_id) {
-                           $(idForm + ' .btnSuccess').append('<div class="alert alert-danger">'+ result.error.form_id +'</div>');
-                        } else {
-                           $.each(result.error, function(key, value) {
-                              $(idForm + ' #input-'+ key).addClass('has-error');
-                           })
-                           $(idForm + ' .btnSuccess').append('<div class="alert alert-danger">Vui lòng điền đầy đủ các thông tin bắt buộc</div>');
-                        }
-                  } else {
-                        $(idForm + ' .form-control').val('');
-                        $(idForm + ' input').val('');
-                        $('has-error').removeClass('has-error');
-                        window.location.href = "//thankyou";
-                        fbq('track', 'CompleteRegistration');
-                  }
-                  
-                  $(idForm + ' .btnSuccess .btn').val(textBtn).removeAttr('disabled', 'disabled');
-                  $('body .page-loading').remove();
-               }
-            });
-      }
-      
-      //formRegister
-      function formRegisterDefault(form) {
-            var idForm  = "#" + form;
-            var urlAjax = "https://erp.langmaster.vn/api/hbr-form-data/add";
-            var textBtn = $(idForm + ' .btnSuccess .btn.step_1').val();
-            var minlength = 9;
-            var phone = $('input[name="phone"]').val();
-            var number = $('input[name="number"]').val();
-            var name_course = $('input[name="name_course"]').val();
-            if(name_course = 'khoa-hoc-quan-tri-nhan-su-danh-cho-sep'){
-               if($('.g-recaptcha-response').val() == ''){
-                  $(idForm + ' .btnSuccess').prepend('<div class="alert alert-danger">Bạn chưa xác thực capcha</div>');
-                  return false;
-               }
-            }
-            if(phone == '') {
-               $(idForm + ' .btnSuccess').prepend('<div class="alert alert-danger">Bạn vui lòng nhập số điện thoại</div>');
-               return false;
-            } else {
-               if (phone.length < minlength) {
-                  $(idForm + ' .btnSuccess').prepend('<div class="alert alert-danger">Số điện thoại không hợp lệ</div>');
-                  return false;
-               }
-            }
-            if(number == '0') {
-               $(idForm + ' .btnSuccess').prepend('<div class="alert alert-danger">Số vé không thể bằng 0</div>');
-               return false;
-            }
-      
-            $.ajax({
-               type: "POST",
-               url: urlAjax,
-               data: $(idForm).serialize(),
-               dataType: "json",
-               cache: false,
-               beforeSend: function () {
-                  $('.btnSuccess .panel.panel-danger').remove();
-                  $(idForm + ' .form-group').removeClass('has-error');
-                  $(idForm + ' .alert').remove();
-                  $(idForm + ' .btnSuccess .btn.step_1').val('Đang gửi thông tin...').attr('disabled', 'disabled');
-                  $('body').append('<div class="page-loading"><div class="loader"></div></div>');
-               },
-               success: function (result) {
-                  $('.btnSuccess .panel.panel-danger').remove();
-                  // var subjectLength = $('#phone-input').val().length;
-                  if (result.error) {
-                        if (result.error.form_id) {
-                           $(idForm + ' .btnSuccess').prepend('<div class="alert alert-danger">' + result.error.form_id + '</div>');
-                           // } else if(subjectLength !== 10) {
-                           //     $.each(result.error, function(key, value) {
-                           //         $(idForm + ' #input-'+ key).addClass('has-error');
-                           //     })
-                           //     $('.btnSuccess').before('<div class="panel panel-danger"><div class="panel-heading">Số điện thoại không hợp lệ</div></div>');
-                        } else {
-                           $.each(result.error, function (key, value) {
-                              $(idForm + ' #input-' + key).addClass('has-error');
-                           })
-                           $(idForm + ' .btnSuccess').prepend('<div class="alert alert-danger">Vui lòng điền đầy đủ các thông tin bắt buộc</div>');
-                        }
-                  } else {
-                        $(idForm + ' input[name="form_data_id"]').val(result.save);
-                        $('.step_2').removeClass('hidden');
-                        $('.step_1').addClass('hidden');
-                        $('.title_2').removeClass('hidden');
-                        $('.title_1').addClass('hidden');
-                  }
-                  if (!$(idForm + ' .btnSuccess .btn.step_1').length) {
-                        if (!result.error) {
-                           $(idForm + ' .btnSuccess').prepend('<div class="alert alert-success">Đăng ký thành công!</div>');
-                           fbq('track', 'CompleteRegistration');
-                        }
-                  }
-                  $(idForm + ' .btnSuccess .btn.step_1').val(textBtn).removeAttr('disabled', 'disabled');
-                  $('body .page-loading').remove();
-               }
-            });
-      }
-      
-      //formUpdate
-      function formRegisterDefaultUpdate(form) {
-            var idForm  = "#" + form;
-            var urlAjax = "https://erp.langmaster.vn/api/hbr-form-data/update";
-            var textBtn = $(idForm + ' .btnSuccess .btn.step_2').val();
-      
-            if($(idForm + ' input[name="company_name"]').val() == '') {
-               $(idForm + ' #input-company_name').addClass('has-error');
-               $(idForm + ' #input-company_position_id').addClass('has-error');
-               $(idForm + ' #input-company_size').addClass('has-error');
-               $(idForm + ' #input-company_career').addClass('has-error');
-               $(idForm + ' #input-company_problem').addClass('has-error');
-               $(idForm + ' .btnSuccess').prepend('<div class="alert alert-danger">Vui lòng điền đầy đủ các thông tin bắt buộc</div>');
-            } else {
-               $.ajax({
-                  type: "POST",
-                  url: urlAjax,
-                  data: $(idForm).serialize(),
-                  dataType: "json",
-                  cache: false,
-                  beforeSend: function() {
-                        $(idForm + ' .form-group').removeClass('has-error');
-                        $(idForm + ' .alert').remove();
-                        $(idForm + ' .btnSuccess .btn.step_2').val('Đang gửi thông tin...').attr('disabled', 'disabled');
-                        $('body').append('<div class="page-loading"><div class="loader"></div></div>');
-                  },
-                  success: function(result){
-                        if(result.error) {
-                           if(result.error.form_id) {
-                              $(idForm + ' .btnSuccess').prepend('<div class="alert alert-danger">'+ result.error.form_id +'</div>');
-                           } else {
-                              $.each(result.error, function(key, value) {
-                                    $(idForm + ' #input-'+ key).addClass('has-error');
-                              })
-                              $(idForm + ' .btnSuccess').prepend('<div class="alert alert-danger">Vui lòng điền đầy đủ các thông tin bắt buộc</div>');
-                           }
-                        } else {
-                           $(idForm + ' .btnSuccess').prepend(
-                              '<div class="alert alert-success text-center" style="background: #1d2c53; color: #fff;"><h3>Thank you!</h3><br>Cảm ơn anh/chị đã đăng ký tham gia khoá học của Trường Doanh nhân HBR.<br>Thân mời anh/chị tham khảo các khóa học sắp diễn ra:<br><a href="https://hbr.edu.vn/hbr-dao-tao-public"><img class="text-center" src="https://hbr.edu.vn/public/template/frontend/img/btnThamKhao.png"></a></div>'
-                           );
-      
-                           $('.step_2').addClass('hidden');
-                           $(idForm + ' .btnSuccess .btn.step_2').addClass('hidden');
-                           
-                           // window.location.href = "";
-                        }
-      
-                        $(idForm + ' .btnSuccess .btn.step_2').val(textBtn).removeAttr('disabled', 'disabled');
-                        $('body .page-loading').remove();
-                  }
-               });
-            }
-      }
-   </script>     --}}
    <script type="text/javascript">
       $(document).ready(function() {
             var maxSlides = 4;

@@ -1,17 +1,23 @@
 @media (min-width: 768px) {
   .hotline-phone-ring-wrap {
     position: fixed;
-    bottom: 180px;
+    bottom: 260px;
     left: 10px;
     z-index: 999999;
   }
   .hotline-phone-ring-wrap2 {
     position: fixed;
-    bottom: 100px;
+    bottom: 180px;
     left: 10px;
     z-index: 999999;
   }
   .hotline-phone-ring-wrap3 {
+    position: fixed;
+    bottom: 100px;
+    left: 10px;
+    z-index: 999999;
+  }
+  .hotline-phone-ring-wrap4 {
     position: fixed;
     bottom: 20px;
     left: 10px;
@@ -203,6 +209,12 @@
     position: fixed;
     bottom: 0px;
     left: 190px;
+    z-index: 999999;
+  }
+  .hotline-phone-ring-wrap4 {
+    position: fixed;
+    bottom: 0px;
+    left: 280px;
     z-index: 999999;
   }
 }
