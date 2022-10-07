@@ -11,6 +11,14 @@
 @section('css')
 @endsection
 @section('js')
+<script type='text/javascript' src='{{ asset('frontend/js/jquery.magnific-popup.min.js')}}'></script>
+<script>
+      $(document).ready(function() {
+      $('.popup-youtube').magnificPopup({
+            type: 'iframe',
+      });
+      });
+</script>
 @endsection
 @section('content')
 <div class="box_bxslider" id="box_bxslider_pc">

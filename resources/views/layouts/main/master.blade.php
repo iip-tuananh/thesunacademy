@@ -115,14 +115,7 @@
    <script type="text/javascript" src="{{asset('frontend/js/jquery.bxslider.min.js')}}"></script>
    <script type="text/javascript" src="{{asset('frontend/js/owl.carousel.min.js')}}"></script>
    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.2/dist/js/splide.min.js"></script>
-   <script type='text/javascript' src='{{ asset('frontend/js/jquery.magnific-popup.min.js')}}'></script>
-   <script>
-      $(document).ready(function() {
-         $('.popup-youtube').magnificPopup({
-            type: 'iframe',
-         });
-      });
-   </script>
+   @yield('js')
    <div id="fb-root"></div>
    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0" nonce="V9nEN9h7"></script>
    <script type="text/javascript">
