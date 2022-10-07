@@ -245,7 +245,6 @@
                   @endforeach
             </ul>
             </div>
-            <div class="go_box input-lg btn-blue" data-box="box_dangKy">Đăng ký ngay</div>
       </div>
 </div>
 <div class="box_newsHome">
