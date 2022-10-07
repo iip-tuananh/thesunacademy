@@ -48,6 +48,7 @@
    <link href="{{asset('frontend/css/owl.carousel.min.css')}}" media="screen" rel="stylesheet" type="text/css">
    <link href="{{asset('frontend/css/owl.theme.default.min.css')}}" media="screen" rel="stylesheet" type="text/css">
    <link href="{{asset('frontend/css/callbuttom.css')}}" rel="stylesheet" type="text/css" />
+   <link href="{{ asset('frontend/css/magnific-popup.css')}}" rel="stylesheet" type="text/css">
 </head>
 <body class="body"> 
    @include('layouts.header.index')
@@ -114,6 +115,14 @@
    <script type="text/javascript" src="{{asset('frontend/js/jquery.bxslider.min.js')}}"></script>
    <script type="text/javascript" src="{{asset('frontend/js/owl.carousel.min.js')}}"></script>
    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.2/dist/js/splide.min.js"></script>
+   <script type='text/javascript' src='{{ asset('frontend/js/jquery.magnific-popup.min.js')}}'></script>
+   <script>
+      $(document).ready(function() {
+         $('.popup-youtube').magnificPopup({
+            type: 'iframe',
+         });
+      });
+   </script>
    <div id="fb-root"></div>
    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0" nonce="V9nEN9h7"></script>
    <script type="text/javascript">
@@ -322,5 +331,35 @@
             }, 3000);
       });
    </script>
+   <style>
+      /**
+ * Simple fade transition,
+ */
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
+   </style>
 </body>
 </html>

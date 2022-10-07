@@ -229,93 +229,25 @@
             </div>
       </div>
 </div>
-{{-- <div class="box_student" id="box_student">
+<div class="box_student" id="box_student">
       <div class="box_title">
-            <h2 class="title font-title">CÂU CHUYỆN THÀNH CÔNG</h2>
+            <h2 class="title font-title">VIDEO CẢM NHẬN CỦA HỌC VIÊN</h2>
       </div>
       <div class="box_content">
             <div class="container">
             <ul class="slider">
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/WHLUwgYJr9Y?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Chủ tịch & TGĐ CTCP Đầu tư & xây dựng Hoàng Kim" src="https://i3.ytimg.com/vi/WHLUwgYJr9Y/maxresdefault.jpg?v=1"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/RW5gKZCL17E?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Giám đốc công ty thời trang GUMAC" src="https://i3.ytimg.com/vi/RW5gKZCL17E/maxresdefault.jpg?v=1"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/SgBa3gaeFCE?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - CEO Công ty Cổ phần GUMAC" src="https://i3.ytimg.com/vi/SgBa3gaeFCE/maxresdefault.jpg?v=1"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/9O5KvHirrQ0?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - CEO công ty Bestbaby VN | Khóa học quản trị doanh nghiệp" src="https://i3.ytimg.com/vi/9O5KvHirrQ0/maxresdefault.jpg?v=1"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/6sD45GZhglw?autoplay=1')"><img alt="GĐ Công ty TNHH Thương mại & dịch vụ kỹ thuật LAS" src="https://i3.ytimg.com/vi/6sD45GZhglw/maxresdefault.jpg?v=1"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/b8Fgo8P3uHA?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - CEO công ty AVT Education | Khóa học quản trị doanh nghiệp" src="https://i3.ytimg.com/vi/b8Fgo8P3uHA/maxresdefault.jpg?v=1"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/PxLhLCe3yVc?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Giám đốc trung tâm Beta Education" src="https://i3.ytimg.com/vi/PxLhLCe3yVc/maxresdefault.jpg?v=1"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/t9Ci8d5Utc4?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Giám đốc công ty thời trang YODY chia sẻ về TS Alok" src="https://i3.ytimg.com/vi/t9Ci8d5Utc4/maxresdefault.jpg?v=1"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/zOySsOkT8ko?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Khóa học Tuyển dụng Đào tạo & Giữ chân Nhân Tài - TS. Alok" src="https://i3.ytimg.com/vi/zOySsOkT8ko/maxresdefault.jpg?v=1"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/tnBxNNxKxvA?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Giám đốc Nhân sự Tập đoàn TA Holdings" src="/public/files/upload/06_2019/images/maxresdefault(1).jpg"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/VzQkJM4gVLU?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Chủ tịch HĐQT Công ty TNHH Sỹ Phú" src="/public/files/upload/06_2019/images/maxresdefault--1-(1).jpg"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/IyGROR86Gck?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Co-Founder Công ty Cổ phần Đầu tư Doanh nhân VERCO" src="/public/files/upload/06_2019/images/maxresdefault(2).jpg"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/tnBxNNxKxvA?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Giám đốc Nhân sự Tập đoàn TA Holdings" src="/public/files/upload/06_2019/images/maxresdefault--1-(2).jpg"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/94kdbV9d4n8?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Chủ tịch HĐQT Công ty Cổ phần iLead Group" src="/public/files/upload/06_2019/images/maxresdefault--2-(1).jpg"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
-            <li>
-                  <div class="item">
-                        <div class="image"><a href="javascript:;" onclick="play_video('https://www.youtube.com/embed/VzQkJM4gVLU?autoplay=1')"><img alt="Cảm nhận học viên trường doanh nhân HBR - Chủ tịch HĐQT Công ty TNHH Sỹ Phú" src="/public/files/upload/06_2019/images/maxresdefault--3-.jpg"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
-                  </div>
-            </li>
+                  @foreach ($videos as $item)
+                  <li>
+                        <div class="item">
+                              <div class="image"><a class="popup-youtube" href="{{$item->link}}"><img alt="{{$item->name}}" src="{{$item->image}}" loading="lazy"><i class="fa fa-play-circle" aria-hidden="true"></i></a></div>
+                        </div>
+                  </li>
+                  @endforeach
             </ul>
             </div>
             <div class="go_box input-lg btn-blue" data-box="box_dangKy">Đăng ký ngay</div>
       </div>
-</div> --}}
+</div>
 <div class="box_newsHome">
       <div class="container">
             <div class="box_content clearfix">

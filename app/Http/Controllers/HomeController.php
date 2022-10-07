@@ -22,7 +22,7 @@ class HomeController extends Controller
     {
         $data['partners'] = Partner::where(['status'=>1])->get(['id','image','name','link']);
         $data['prizes'] = Prize::where(['status'=>1])->get();
-        $data['video'] = Video::where(['status'=>1])->first();
+        $data['videos'] = Video::where(['status'=>1])->get();
         $data['founder'] = Founder::where(['status'=>1])->get();
         $data['aboutUs'] = PageContent::where(['status'=>1, 'type'=>'ve-chung-toi', 'language'=>'vi'])->first();
         $data['reviewCus'] = ReviewCus::where('status',1)->get(['name','content','avatar']);
