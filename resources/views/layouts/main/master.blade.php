@@ -29,6 +29,7 @@
    <meta name="twitter:title" content="@yield('title')" />
    <meta name="twitter:description" content="@yield('description')" />
    <meta name="twitter:image" content="@yield('image')" />
+   <meta name="google-site-verification" content="H-YxMC9qB9FTRz3f6-I5Vhq7ngWBLUN3C9uW779_Fus" />
    <!-- Fav Icon -->
    <link rel="icon" href="{{url(''.$setting->favicon)}}" type="image/x-icon">
    <link href="{{asset('frontend/css/bootstrap.min.css')}}" media="screen" rel="stylesheet" type="text/css">
